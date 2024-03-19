@@ -314,6 +314,12 @@ namespace CGDK
 //----------------------------------------------------------------------------
 namespace CGDK
 {
+	class CGDK_INFO_CLASS
+	{
+	public:
+		CGDK_INFO_CLASS();
+	};
+
 	namespace api
 	{
 
@@ -350,7 +356,7 @@ namespace CGDK
 		#pragma warning(default:26812)
 		#pragma warning(default:26446)
 	#endif
-#define NFMT fmt
+	#define NFMT fmt
 #endif
 
 //----------------------------------------------------------------------------
