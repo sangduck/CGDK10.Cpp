@@ -69,3 +69,13 @@ ADD_SUBDIRECTORY (server.4.time_event)
 
 # 11) query
 ADD_SUBDIRECTORY (server.5.query)
+
+# 12) oauth
+ADD_SUBDIRECTORY (server.6.http_api)
+
+# 13) doss
+ADD_SUBDIRECTORY (server.7.doss)
+
+# 14) web server
+ADD_SUBDIRECTORY (server.8.web_server)
+

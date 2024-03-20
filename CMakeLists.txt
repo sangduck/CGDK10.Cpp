@@ -30,14 +30,17 @@ SET ( PROJECT_VERSION_TWEAK 1 )
 set ( DEFAULT_BULD_TYPE debug )
 
 # 3) build version
-CMAKE_MINIMUM_REQUIRED ( VERSION 3.10 )
+CMAKE_MINIMUM_REQUIRED ( VERSION 3.20 )
 
 
 #-----------------------------------------------------------------------------
 # Compile
 #-----------------------------------------------------------------------------
-# 1) tutorial
+# 1) system
+ADD_SUBDIRECTORY (build)
+
+# 2) tutorial
 ADD_SUBDIRECTORY (tutorials)
 
-# 2) example
+# 3) example
 ADD_SUBDIRECTORY (examples)
