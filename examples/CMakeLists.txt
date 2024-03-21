@@ -73,5 +73,5 @@ ADD_SUBDIRECTORY (1.3.tcp_multicast_echo)
 #ADD_SUBDIRECTORY (6.5.game_trade_server_system)
 
 # 7) update_service
-ADD_SUBDIRECTORY (7.1.update_service)
+#ADD_SUBDIRECTORY (7.1.update_service)
 
