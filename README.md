@@ -27,21 +27,42 @@ mfc control용 dll들로 windows에서 CGCII의 mfc control들을 사용해서 �
 <br/>
 <br/>
 
-# tutorials & examples compile
+
+
+# compile
+
+cmake설정
+
+## include directories
+>   INCLUDE_DIRECTORIES(<CGDK10 folder>/include)
+
+## lib directories
+>   LINK_DIRECTORIES(<CGDK10 folder>/lib/cgdk/sdk10/ubuntu)
+
+<br/>
+<br/>
+
+## tutorials & examples 
 ### windows
 Release<br/>
 > build.Release.bat<br/>
+
 Debug<br/>
-> build.Debug.bat<br/>
+> build.Debug.bat
 <br/>
+
 ### ubuntu
 Release<br/>
->cmake . -DCMAKE_BUILDE_TYPE=Delease -DDIST=ubuntu<br/>
+> cmake . -DCMAKE_BUILDE_TYPE=Release -DDIST=ubuntu<br/>
+
 Debug<br/>
->cmake . -DCMAKE_BUILDE_TYPE=Debug -DDIST=ubuntu<br/>
+> cmake . -DCMAKE_BUILDE_TYPE=Debug -DDIST=ubuntu<br/>
+
 <br/>
+
 ### centos
 Release<br/>
->cmake . -DCMAKE_BUILDE_TYPE=Delease -DDIST=centos<br/>
+>cmake . -DCMAKE_BUILDE_TYPE=Release -DDIST=centos<br/>
+
 Debug<br/>
 >cmake . -DCMAKE_BUILDE_TYPE=Debug -DDIST=centos<br/>
