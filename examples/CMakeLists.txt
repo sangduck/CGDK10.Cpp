@@ -45,7 +45,7 @@ ADD_SUBDIRECTORY (1.3.tcp_multicast_echo)
 #ADD_SUBDIRECTORY (1.5.udp_echo)
 
 # 2) 1.chatting_simple
-#ADD_SUBDIRECTORY (2.1.chatting_simple)
+DD_SUBDIRECTORY (2.1.chatting_simple)
 #ADD_SUBDIRECTORY (2.2.chatting_scaleout)
 #ADD_SUBDIRECTORY (2.3.chatting)
 
